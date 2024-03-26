@@ -21,7 +21,6 @@ driver = webdriver.Chrome(service = service)
 # print(html_text)
 
 data = []
-pages = 50
 count_pages = 0
 for page in range(1,51):
     driver.get(url+str(page))
